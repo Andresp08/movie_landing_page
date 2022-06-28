@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Andrés Pardo">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <script src="https://kit.fontawesome.com/59f66a0e33.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="navbar__grid contenedor">
+            <a href="#" class="navbar__brand">
+                <img class="navbar__img" src="./images/icon.png" alt="icon">
+                Movie App
+            </a>
+            
+
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">Movies</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__link">Series</a>
+                </li>
+            </ul>
+
+            <div class="navbar__buttons">
+                <a href="#" class="hero__btn hero__btn-header hero__btn-list">Sing in</a>
+                <a href="#" class="hero__btn hero__btn-header hero__btn-watch">Log in</a>
+            </div><!--buttons-->
+        </div><!--grid-->
+    </nav>
+
+    <!--Header-->
+    <header class="hero">
+        <!-- <label for="movie" class="hero__label">Search for actors</label>
+        <div class="hero__input">
+            <input type="search" id="movie" class="hero__search" placeholder="Ex: Jack Sparrow">
+        </div> -->
+
+        <div class="contenedor hero__landing">
+            <div class="hero__info">
+                <h2 class="hero__heading">Sentinelle</h2>
+
+                <div class="hero__rating">
+                    <p class="hero__star"><i class="fa-solid fa-star"></i>6.1</p>
+                    |
+                    <p class="hero__date">2021-03-05</p>
+                </div><!--rating-->
+
+                <p class="hero__about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium rem nobis suscipit nam enim odio nisi sapiente fugit obcaecati laborum!</p>
+
+                <div class="hero__buttons">
+                    <a href="#" class="hero__btn hero__btn-watch">Watch Now</a>
+                    <a href="#" class="hero__btn hero__btn-list">Add List</a>
+                </div><!--buttons-->
+            </div><!--info-->
+
+            <div class="hero__img">
+                <img class="hero__image" src="./images/sentinelle.jpg" alt="sentinelle">
+            </div>
+        </div>  
+    </header>
+
+    <section class="categories">
+        <h2 class="categories__title">Movie categories</h2>
+        <div class="categories__grid contenedor">
+
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+            <div class="categorie__card">
+                <i class="fa-solid fa-masks-theater"></i>
+                <p>Comedy</p>
+            </div><!--card-->
+        </div><!--grid-->
+    </section>
+
+    <hr class="hr">
+
+    <!--Movies-->
+    <main class="movies">
+        <h2 class="movies__heading">Trends now</h2>
+        <div class="movies__grid contenedor">
+            <div class="movie__card">
+                <img src="./images/dog.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Dog</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/jurasic.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Jurasic</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/monster.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Monster</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/morbius.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Morbius</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/outside.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Outside</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/sentinelle.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Sentinelle</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/dog.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Dog</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                    
+                </div><!--about-->
+            </div><!--card-->
+            <div class="movie__card">
+                <img src="./images/monster.jpg" alt="movie image" class="movie__img">
+
+                <h3 class="movie__title">Monster</h3>
+                <div class="movie__about">
+                    <p class="movie__date">2021-03-05</p>
+                    <div class="movie__rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--rating-->
+                </div><!--about-->
+            </div><!--card-->
+        </div><!--grid-->
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__column">
+                <h2 class="footer__heading">Resources</h2>
+
+                <nav class="footer__navbar">
+                    <a class="footer__link" href="#">Contact Us</a>
+                    <a class="footer__link" href="#">Forums</a>
+                    <a class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" href="#">Help Center</a>
+                </nav>
+            </div><!--column-->
+            <div class="footer__column">
+                <h2 class="footer__heading">Account</h2>
+
+                <nav class="footer__navbar">
+                    <a class="footer__link" href="#">Contact Us</a>
+                    <a class="footer__link" href="#">Forums</a>
+                    <a class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" href="#">Help Center</a>
+                </nav>
+            </div><!--column-->
+            <div class="footer__column">
+                <h2 class="footer__heading">Legal</h2>
+
+                <nav class="footer__navbar">
+                    <a class="footer__link" href="#">Contact Us</a>
+                    <a class="footer__link" href="#">Forums</a>
+                    <a class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" href="#">Help Center</a>
+                </nav>
+            </div><!--column-->
+            <div class="footer__column">
+                <h2 class="footer__heading">Newsletter</h2>
+
+                <nav class="footer__navbar">
+                    <a class="footer__link" class="footer__link" href="#">Contact Us</a>
+                    <a class="footer__link" class="footer__link" href="#">Forums</a>
+                    <a class="footer__link" class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" class="footer__link" href="#">Help Center</a>
+                </nav>
+            </div><!--column-->
+        </div><!--contenedor-->
+        <div class="contenedor copyright">
+            <img src="./images/icon.png" alt="icono img">
+            <p class="footer__copy">Copyright &copy; 2022</p>
+            <p class="footer__designed">Developed by Andrés Pardo</p>
+        </div><!--contenedor-->
+    </footer>
+    
+</body>
+</html>
